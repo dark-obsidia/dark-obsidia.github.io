@@ -1,15 +1,15 @@
-import './App.css';
+import './index.css';
 import Home from './Home.js';
+import Navbar from './Navbar.js'
+import Background from './wallpaper.jpg'
 
 function App() {
 
-  const title = 'Hi, I\'m Abel Lu'
-
   return (
     <div className="App">
+      <h1 style={{backgroundImage: "url(" + Background + ")" }}>Abel's Digital Portfolio</h1>
+      <Navbar />
       <div className="content">
-        <h1>{title}</h1>
-        <p>This is my digital portfolio.</p>
         <Home />
       </div>
     </div>
