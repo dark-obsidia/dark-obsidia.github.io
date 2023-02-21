@@ -7,7 +7,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1 style={{backgroundImage: "url(" + Background + ")" }}>Abel's Digital Portfolio</h1>
+      <h1 style={
+        {
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
+          backgroundAttachment: "fixed"
+        }
+      }>Welcome to Abel Lu's Digital Portfolio</h1>
       <Navbar />
       <div className="content">
         <Home />

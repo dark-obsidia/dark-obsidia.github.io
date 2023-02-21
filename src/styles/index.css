@@ -22,16 +22,30 @@ code {
   align-items: center;
 }
 
+/* .App {
+  position: absolute;
+} */
+
 h1 {
-  height: 300px;
-  color: white;
-  color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-size: cover;
+  height: 600px;           /* object height */
+  color: white;          /* text color */
+  display: flex;           /* centers the content vertically */
+  justify-content: center; /* centers the content horizontally */
+  background-size: cover;  /* stretches image to fill area */
 }
 
+/* margin: auto centers the content, and max-width sets the max width. */
+.content {
+  margin: auto;
+  max-width: 1000px;
+}
+
+/* Provides padding on the sides of the page. This is good for mobile display. */
+.Home {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .nav {
   list-style: none;
