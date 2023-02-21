@@ -1,7 +1,7 @@
-import './index.css';
+import './styles/index.css';
 import Home from './Home.js';
 import Navbar from './Navbar.js'
-import Background from './wallpaper.jpg'
+import Background from './images/wallpaper.jpg'
 
 function App() {
 
