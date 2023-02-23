@@ -1,9 +1,9 @@
 import "./styles/index.css"
 
-const Home = () => {
-    return (
-        <div className="Home" id="AboutMe">
-            <h2>About Me</h2>
+const Projects = () => {
+    return (  
+        <div className="Projects" id="Projects">
+            <h2>Projects</h2>
             <br></br>
             <p> Hey there! I'm Abel Lu, a sophomore Computer Science student at North Carolina State University.
                 I'm currently enrolled in Software Development Fundamentals, a Java class where I've been learning
@@ -22,7 +22,7 @@ const Home = () => {
             <p> Now that you know all about me, I'd love to get to know you as well! If you'd like to chat, feel free to
                 connect with me on LinkedIn or through my "Contact Me" page. I'll be more than happy to get in touch with you!</p>
         </div>
-     );
+    );
 }
  
-export default Home;
+export default Projects;

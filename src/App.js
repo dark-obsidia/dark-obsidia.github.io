@@ -1,7 +1,10 @@
 import './styles/index.css';
-import Home from './Home.js';
 import Navbar from './Navbar.js'
+import Home from './Home.js';
+import Projects from './Projects.js'
+import ContactMe from './ContactMe.js'
 import Background from './images/wallpaper.jpg'
+
 
 function App() {
 
@@ -16,6 +19,10 @@ function App() {
       <Navbar />
       <div className="content">
         <Home />
+        <br />
+        <Projects />
+        <br />
+        <ContactMe />
       </div>
     </div>
   );
