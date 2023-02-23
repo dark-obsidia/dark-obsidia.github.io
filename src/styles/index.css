@@ -34,17 +34,66 @@ h1 {
   background-size: cover;  /* stretches image to fill area */
 }
 
-/* margin: auto centers the content, and max-width sets the max width. */
-.content {
-  margin: auto;
-  max-width: 1000px;
+h2 {
+  text-align: center;
 }
+
+p {
+  text-align: justify;
+}
+
+
+/* margin: auto centers the content, and max-width sets the max width. */
+ @media all and (1500px < width <= 1920px){
+
+  h1 {
+    height: 800px;           /* object height */
+  }
+
+  .content {
+    margin: auto;
+    max-width: 1200px;
+  }
+} 
+
+@media all and (800px <= width <= 1500px){
+  h1 {
+    height: 600px;           /* object height */
+  }
+  .content {
+    margin: auto;
+    max-width: 80%;
+  }
+}
+
+@media all and (width < 800px) {
+  h1 {
+    height: 400px;
+  }
+  .content {
+    margin: auto;
+    max-width: 80%;
+  }
+}
+
+@media all and (width < 430px) {
+  h1 {
+    height: 300px;
+  }
+
+}
+
+/* .content {
+  margin: auto;
+  max-width: 60%;
+} */
 
 /* Provides padding on the sides of the page. This is good for mobile display. */
 .Home {
   padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
 }
 
 .nav {
@@ -60,6 +109,7 @@ h1 {
   position: sticky;
   width: 100%;
   top: 0;
+  padding-bottom: 15px;
 }
 
 .nav li {

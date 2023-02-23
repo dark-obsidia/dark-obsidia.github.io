@@ -1,15 +1,26 @@
+import "./styles/index.css"
+
 const Home = () => {
     return (
         <div className="Home">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa placerat. Vel quam elementum pulvinar etiam non quam lacus suspendisse. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Tincidunt id aliquet risus feugiat in ante metus dictum. Quis eleifend quam adipiscing vitae proin. Purus non enim praesent elementum facilisis. Purus gravida quis blandit turpis cursus in hac habitasse platea. At erat pellentesque adipiscing commodo elit at imperdiet dui. Eu facilisis sed odio morbi quis commodo odio aenean. Gravida rutrum quisque non tellus orci ac auctor. Eget nunc lobortis mattis aliquam. Urna nec tincidunt praesent semper feugiat nibh sed. Curabitur vitae nunc sed velit dignissim sodales. In arcu cursus euismod quis viverra nibh. Vulputate odio ut enim blandit volutpat maecenas. Porta nibh venenatis cras sed. Sociis natoque penatibus et magnis dis parturient.
-
-Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Nibh praesent tristique magna sit amet. Urna molestie at elementum eu facilisis sed odio morbi quis. Lectus sit amet est placerat. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Velit dignissim sodales ut eu. Ut tellus elementum sagittis vitae et leo duis ut diam. Cursus metus aliquam eleifend mi in nulla. Sit amet luctus venenatis lectus magna fringilla. Pellentesque habitant morbi tristique senectus et. At lectus urna duis convallis convallis tellus id interdum. Faucibus purus in massa tempor nec feugiat nisl pretium fusce. Donec pretium vulputate sapien nec. Amet risus nullam eget felis eget nunc lobortis. Erat imperdiet sed euismod nisi porta lorem mollis. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Pretium fusce id velit ut tortor pretium viverra.
-
-Urna neque viverra justo nec ultrices. Amet porttitor eget dolor morbi non arcu risus quis. Interdum varius sit amet mattis vulputate enim. Dictum at tempor commodo ullamcorper a. Id ornare arcu odio ut. Interdum velit laoreet id donec ultrices tincidunt arcu non. Iaculis nunc sed augue lacus viverra vitae congue. Risus pretium quam vulputate dignissim. Amet massa vitae tortor condimentum lacinia quis. Sed velit dignissim sodales ut eu sem integer vitae. Aliquet sagittis id consectetur purus ut. Lectus proin nibh nisl condimentum id venenatis a.
-
-Posuere sollicitudin aliquam ultrices sagittis. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Bibendum at varius vel pharetra vel turpis nunc eget. Vulputate mi sit amet mauris commodo quis imperdiet massa. Facilisi etiam dignissim diam quis enim. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Magna eget est lorem ipsum dolor sit. Turpis tincidunt id aliquet risus feugiat. Accumsan tortor posuere ac ut. Lacinia quis vel eros donec ac.
-
-Congue nisi vitae suscipit tellus mauris. Egestas diam in arcu cursus euismod. Hendrerit dolor magna eget est. Urna et pharetra pharetra massa massa ultricies mi quis. Posuere lorem ipsum dolor sit. Diam vulputate ut pharetra sit amet aliquam id. Viverra ipsum nunc aliquet bibendum enim facilisis. Cras sed felis eget velit aliquet sagittis id. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Nullam vehicula ipsum a arcu.</h2>
+            <h2>About Me</h2>
+            <br></br>
+            <p> Hey there! I'm Abel Lu, a sophomore Computer Science student at North Carolina State University.
+                I'm currently enrolled in Software Development Fundamentals, a Java class where I've been learning
+                about software development best practices, unit testing, and finite state machines. I'm also taking
+                an introductory Data Science course where I've been working with RStudio and Python. Aside from my
+                coursework, I'm also working on a few personal projects, including a Genshin Impact-themed Discord bot
+                made using discord.py, as well as the digital portfolio you're reading right now, made with React.js.</p>
+            <br></br>
+            <p> Aside from being a Computer Science student, I'm also an avid music student! Here at NC State, I'm a member
+                of the Marching Band, where I play the snare drum, the Wind Ensemble, where I play percussion, and the
+                Beginning Band, where I'm learning how to play the flute. I'm also a big fan of college and professional
+                basketball. My favorite college team is the NC State Wolfpack, and my favorite NBA team is the Los Angeles
+                Lakers. In addition to just watching basketball, I also like to play, and I get the privilege of playing
+                with the best teammates I could ever ask for as a part of NC State's intramural basketball league.</p>
+            <br></br>
+            <p> Now that you know all about me, I'd love to get to know you as well! If you'd like to chat, feel free to
+                connect with me on LinkedIn or through my "Contact Me" page. I'll be more than happy to get in touch with you!</p>
         </div>
      );
 }
