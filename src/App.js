@@ -15,7 +15,7 @@ function App() {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
           backgroundAttachment: "fixed"
         }
-      }>Welcome to Abel Lu's Digital Portfolio</h1>
+      } id="Home">Welcome to Abel Lu's Digital Portfolio</h1>
       <Navbar />
       <div className="content">
         <Home />

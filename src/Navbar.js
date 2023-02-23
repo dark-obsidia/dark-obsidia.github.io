@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className="navbar">
             <ul class={'nav'}>
 
-                <li><a href="#AboutMe">Home</a></li>
+                <li><a href="#Home">Home</a></li>
                 <li><a href="#AboutMe">About Me</a></li>
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="https://azn-abel.github.io/azn-abel/Printable%20Resume%202_10_2022.pdf" target={'_blank'} rel={'noreferrer'}>Resume</a></li>
