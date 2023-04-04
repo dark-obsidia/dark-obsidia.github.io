@@ -1,4 +1,5 @@
 import "./styles/index.css"
+import ContactForm from "./ContactForm";
 
 const ContactMe = () => {
     return ( 
@@ -21,6 +22,8 @@ const ContactMe = () => {
             <br></br>
             <p> Now that you know all about me, I'd love to get to know you as well! If you'd like to chat, feel free to
                 connect with me on LinkedIn or through my "Contact Me" page. I'll be more than happy to get in touch with you!</p>
+            <br></br>
+            <ContactForm/>
         </div>
      );
 }

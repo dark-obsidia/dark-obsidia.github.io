@@ -10,10 +10,12 @@ const Home = () => {
     const handleClick = () => {
         setIndex(Math.abs(index - 1));
         setTestVar(tests[index]);
+        console.log('poop');
     }
 
     return (
-        <div className="Home" id="AboutMe">
+        <div className="Home" id="AboutMe"> 
+            
             <h2>{testVar}, {index}</h2>
             <button onClick={handleClick}>test button</button>
             <h2>About Me</h2>
