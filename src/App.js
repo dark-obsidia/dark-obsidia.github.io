@@ -13,7 +13,6 @@ function App() {
       <h1 style={
         {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
-          backgroundAttachment: "fixed"
         }
       } id="Home">Welcome to Abel Lu's Digital Portfolio</h1>
       <Navbar />

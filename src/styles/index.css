@@ -34,6 +34,7 @@ h1 {
   display: flex;           /* centers the content vertically */
   justify-content: center; /* centers the content horizontally */
   background-size: cover;  /* stretches image to fill area */
+  background-attachment: fixed;
 }
 
 h2 {
@@ -70,6 +71,13 @@ p {
   .content {
     max-width: 80%;
   }
+
+  iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 1130px;
+  }
 }
 
 @media all and (width < 800px) {
@@ -79,11 +87,26 @@ p {
   .content {
     max-width: 80%;
   }
+
+  iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 700px;
+  }
 }
 
 @media all and (width <= 504px) {
   h1 {
     height: 300px;
+    background-attachment: scroll;
+  }
+
+  iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
   }
 }
 
@@ -120,5 +143,14 @@ p {
 .nav a:hover {
   background-color: #c6e2ff;
 } 
+
+/* iframe {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: 1130px;
+} */
+
+
 
 

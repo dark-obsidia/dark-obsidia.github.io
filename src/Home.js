@@ -1,8 +1,21 @@
-import "./styles/index.css"
+import {useState} from 'react';
+import "./styles/index.css";
 
 const Home = () => {
+
+    const tests = ["test1", "test2"];
+    const [index, setIndex] = useState(0)
+    const [testVar, setTestVar] = useState(tests[index]);
+
+    const handleClick = () => {
+        setIndex(Math.abs(index - 1));
+        setTestVar(tests[index]);
+    }
+
     return (
         <div className="Home" id="AboutMe">
+            <h2>{testVar}, {index}</h2>
+            <button onClick={handleClick}>test button</button>
             <h2>About Me</h2>
             <br></br>
             <p> Hey there! I'm Abel Lu, a sophomore Computer Science student at North Carolina State University.
