@@ -16,7 +16,7 @@ function ContactForm() {
         formData.append('subject', subject);
         formData.append('message', message);
         
-        fetch('src/end_email.php', {
+        fetch('./send_email.php', {
             method: 'POST',
             body: formData
         })
