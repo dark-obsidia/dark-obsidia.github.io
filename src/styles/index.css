@@ -76,6 +76,7 @@ p {
   transition: top 0.3s ease-in-out;
   width: 200px;
   height: 200px;
+  z-index: 2;
   padding: 20px
 }
 
@@ -164,6 +165,7 @@ p {
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 10;
 }
 
 .nav li {
