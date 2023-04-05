@@ -63,6 +63,13 @@ p {
   .content {
     max-width: 1200px;
   }
+
+  iframe {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 1130px;
+  }
 } 
 
 @media all and (800px <= width <= 1500px){
