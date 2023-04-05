@@ -26,6 +26,7 @@ function ContactForm() {
         setEmail('');
         setSubject('');
         setMessage('');
+        setTimeout(() => setStatus(''), 10000)
         
     };
 
