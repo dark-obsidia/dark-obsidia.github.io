@@ -7,6 +7,7 @@ function ContactForm() {
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
+    const [status, setStatus] = useState('');
 
     const form = useRef();
 
@@ -16,10 +17,16 @@ function ContactForm() {
       emailjs.sendForm('service_l49rbwz', 'template_oklhrkg', form.current, 'TalPMRUnzL8eHLRR5')
         .then((result) => {
             console.log(result.text);
+            setStatus('Message sent successfully!');
         }, (error) => {
             console.log(error.text);
+            setStatus('Message failed to send. Please refresh and try again.');
         });
-        e.target.reset()
+        setName('');
+        setEmail('');
+        setSubject('');
+        setMessage('');
+        
     };
 
     return ( 
@@ -34,6 +41,8 @@ function ContactForm() {
                 <label htmlFor="message">Message:</label>
                 <textarea id="message" name="message" placeholder="Your message" value={message} onChange={(e) => setMessage(e.target.value)} required/>
                 <input type="submit" className="btn btn-info" value="Send Message"/>
+                <br />
+                <label htmlFor="status" id="status" name="status" text-align="center">{status}</label>
             </form>
         </div>
      );
