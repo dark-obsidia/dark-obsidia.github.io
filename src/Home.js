@@ -1,23 +1,17 @@
-import {useState} from 'react';
 import "./styles/index.css";
+import AbelPic from "./images/Abel Lu.jpg";
 
 const Home = () => {
 
-    const tests = ["test1", "test2"];
-    const [index, setIndex] = useState(0)
-    const [testVar, setTestVar] = useState(tests[index]);
-
-    const handleClick = () => {
-        setIndex(Math.abs(index - 1));
-        setTestVar(tests[index]);
-        console.log('poop');
-    }
-
     return (
-        <div className="Home" id="AboutMe"> 
-            
-            <h2>{testVar}, {index}</h2>
-            <button onClick={handleClick}>test button</button>
+        <div className="Home" id="AboutMe">
+            <h3 className="Hello">Hi, I'm Abel Lu 👋</h3>
+            <br />
+            <img src={AbelPic} height="450px" width="300px" alt="Abel Lu" />
+            <br />
+            <br />
+            <hr />
+            <br />
             <h2>About Me</h2>
             <br></br>
             <p> Hey there! I'm Abel Lu, a sophomore Computer Science student at North Carolina State University.

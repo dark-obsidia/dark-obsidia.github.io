@@ -8,6 +8,10 @@ const Projects = () => {
         <div className="Projects" id="Projects">
             <h2>Projects</h2>
             <br/>
+            <p>I'm currently working on a few personal projects, including a Genshin Impact-themed Discord bot that
+                will implement PostgreSQL as its data storage solution, an osu!-themed application that use OAuth 
+                authentication to access the osu! API, as well as the digital portfolio you're reading right now,
+                which is being made with React.js. Feel free to check them out below!</p>
             <div className="projects-container">
                 <div className="project">
                     <a href="https://github.com/azn-abel?tab=repositories&language=python" target={'_blank'} rel={'noreferrer'}>

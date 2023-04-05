@@ -38,6 +38,10 @@ h1 {
   background-attachment: fixed;
 }
 
+h3 {
+  font-size: 40px;
+}
+
 h2 {
   text-align: center;
 }
