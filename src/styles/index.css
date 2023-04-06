@@ -3,6 +3,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (width < 641px){
+  html {
+    scroll-padding-top: 110px;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -30,12 +36,34 @@ code {
 } */
 
 h1 {
-  height: 600px;           /* object height */
+  height: calc(100vh - 49px); 
   color: white;          /* text color */
   display: flex;           /* centers the content vertically */
+  flex-direction: column;
   justify-content: center; /* centers the content horizontally */
   background-size: cover;  /* stretches image to fill area */
   background-attachment: fixed;
+}
+
+/* Fade-in animation for home page text */
+.fade-in {
+  opacity: 0;
+  animation: fade-in 3s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity:0
+  }
+  to {
+    opacity:1
+  }
+}
+
+@media screen and (width < 641px){
+  h1 {
+    height: calc(100vh - 98px);
+  }
 }
 
 h3 {
@@ -51,7 +79,7 @@ p {
 }
 
 .content {
-  padding-top: 30px;
+  padding-top: 20px;
   margin: auto;
   padding-bottom: 50px;
 }
@@ -112,9 +140,6 @@ p {
 /* margin: auto centers the content, and max-width sets the max width. */
 @media all and (1500px < width <= 1920px){
 
-  h1 {
-    height: 100vh;           /* object height */
-  }
 
   .content {
     max-width: 1200px;
@@ -130,9 +155,6 @@ p {
 
 @media all and (800px <= width <= 1500px){
   
-  h1 {
-    height: 600px;           /* object height */
-  }
   .content {
     max-width: 80%;
   }
@@ -147,9 +169,6 @@ p {
 
 @media all and (width < 800px) {
   
-  h1 {
-    height: 400px;
-  }
   .content {
     max-width: 80%;
   }
@@ -164,7 +183,6 @@ p {
 
 @media all and (width <= 504px) {
   h1 {
-    height: 300px;
     background-attachment: scroll;
   }
 

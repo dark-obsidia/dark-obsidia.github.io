@@ -15,7 +15,7 @@ function App() {
         {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
         }
-      } id="Home">Hi, I'm Abel Lu 👋 Welcome to my digital portfolio!</h1>
+      } id="Home"><p className="fade-in" style={{fontSize: "50px"}}> Abel Lu </p><p className="fade-in">---</p><p className="fade-in">CompSci @ NC State</p><br /><br /></h1>
       <div className="content">
         <Home />
         <br />

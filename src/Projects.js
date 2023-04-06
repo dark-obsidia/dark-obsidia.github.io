@@ -6,6 +6,7 @@ import genshin from "./images/genshin.png";
 const Projects = () => {
     return (  
         <div className="Projects" id="Projects">
+            <br />
             <h2>Projects</h2>
             <br/>
             <p>I'm currently working on a few personal projects, including a Genshin Impact-themed Discord bot that

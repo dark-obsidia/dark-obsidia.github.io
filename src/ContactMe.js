@@ -4,6 +4,7 @@ import ContactForm from "./ContactForm";
 const ContactMe = () => {
     return ( 
         <div className="ContactMe" id="ContactMe">
+            <br />
             <h2>Contact Me</h2>
             <br/>
             <p> Feel free to connect with me on LinkedIn, through email at aluprof4@gmail.com, or through my contact form below.
