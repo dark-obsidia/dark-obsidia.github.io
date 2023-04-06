@@ -10,12 +10,12 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <h1 style={
         {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
         }
-      } id="Home">Welcome to Abel Lu's Digital Portfolio</h1>
-      <Navbar />
+      } id="Home">Hi, I'm Abel Lu 👋 Welcome to my digital portfolio!</h1>
       <div className="content">
         <Home />
         <br />
