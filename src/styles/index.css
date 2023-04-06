@@ -31,9 +31,10 @@ code {
   align-items: center;
 }
 
-/* .App {
-  position: absolute;
-} */
+.App {
+  background-color: black;
+  color: white;
+}
 
 h1 {
   height: calc(100vh - 49px); 
@@ -273,6 +274,10 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.ContactForm label {
+  color: #424957;
 }
 
 
