@@ -19,7 +19,7 @@ const Home = () => {
                 <p> Hey there! My name is Abel Lu, and I'm a sophomore Computer Science student at North Carolina State University.
                     I'm currently enrolled in Software Development Fundamentals, a Java class where I've been learning
                     about software development best practices, unit testing, and finite state machines. I'm also taking
-                    an introductory Data Science course where I've been using RStudio and Python to analyze visualize data
+                    an introductory Data Science course where I've been using RStudio and Python to analyze and visualize data
                     with dplyr, numpy, pandas, and matplotlib. Aside from my
                     coursework, I'm also working on a few personal projects, including a Genshin Impact-themed Discord bot
                     being made using discord.py, as well as the digital portfolio you're reading right now, which has been
