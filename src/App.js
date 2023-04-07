@@ -2,6 +2,7 @@ import './styles/index.css';
 import Navbar from './Navbar.js'
 import Home from './Home.js';
 import Projects from './Projects.js'
+import Resume from './Resume.js'
 import ContactMe from './ContactMe.js'
 import Background from './images/wallpaper.jpg'
 
@@ -20,6 +21,7 @@ function App() {
         <Home />
         <br />
         <Projects />
+        <Resume />
         <br />
         <ContactMe />
       </div>
