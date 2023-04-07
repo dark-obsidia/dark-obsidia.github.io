@@ -3,6 +3,7 @@ import react from "./images/react.png";
 import osu from "./images/osu.png";
 import genshin from "./images/genshin.png";
 import pokeball from "./images/pokeball.png";
+import burgercat from "./images/burgercat.png";
 import r from "./images/r.png";
 
 const Projects = () => {
@@ -29,7 +30,7 @@ const Projects = () => {
                         <img alt="osu! logo" src={osu}/>
                     </a>
                     <b>osu! API</b>
-                    <p>A discord.py bot that lets users share recent scores. </p>
+                    <p>A discord.py bot that lets users share recent and overall osu! scores. </p>
                 </div>
                 <div className="project">
                     <a href="https://github.com/azn-abel/PokemonCollectingBot3" target={'_blank'} rel={'noreferrer'}>
@@ -44,6 +45,13 @@ const Projects = () => {
                     </a>
                     <b>Wake County Food</b>
                     <p>A simple R project that analyzes sanitation scores in Wake County, NC.</p>
+                </div>
+                <div className="project">
+                    <a href="https://github.com/azn-abel/burger-cat-game" target={'_blank'} rel={'noreferrer'}>
+                        <img alt="Burger Cat" src={burgercat}/>
+                    </a>
+                    <b>Burger Cat Game</b>
+                    <p>An educational video game made with a template from the GameMaker engine.</p>
                 </div>
                 <div className="project">
                     <a href="https://github.com/azn-abel/GenshinDiscordBot" target={'_blank'} rel={'noreferrer'}>
