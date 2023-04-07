@@ -20,18 +20,21 @@ const Projects = () => {
                         <img alt="Discord Logo" src={discord}/>
                     </a>
                     <b>Discord Bots</b>
+                    <p>A collection of Discord bots made using discord.py.</p>
                 </div>
                 <div className="project">
                     <a href="https://github.com/azn-abel/OsuBot" target={'_blank'} rel={'noreferrer'}>
                         <img alt="osu! logo" src={osu}/>
                     </a>
                     <b>osu! API</b>
+                    <p>A discord.py bot that lets users share recent scores. </p>
                 </div>
                 <div className="project">
                     <a href="https://github.com/azn-abel/GenshinDiscordBot" target={'_blank'} rel={'noreferrer'}>
                         <img alt="Genshin Impact Logo" src={genshin}/>
                     </a>
                     <b>Genshin Impact</b>
+                    <p>A discord.py bot that simulates Genshin Impact in Discord.</p>
                 </div>
             </div>
             <br />
