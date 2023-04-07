@@ -73,6 +73,7 @@ h3 {
 
 h2 {
   text-align: center;
+  font-size: 35px;
 }
 
 p {
@@ -135,6 +136,41 @@ p {
 }
 
 .project img:hover {
+  top: -10px
+}
+
+/*----------------------CONTACTS SECTION------------------------*/
+
+.socials-container {
+  text-align: center;
+  display: inline;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  display: inline-flex;
+  vertical-align: middle;
+  flex-direction: column;
+  padding-bottom: 10px;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+
+.social img {
+  position: relative;
+  top: 0;
+  transition: top 0.3s ease-in-out;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  padding: 20px;
+  padding-top: 0px
+}
+
+.social img:hover {
   top: -10px
 }
 
@@ -230,12 +266,13 @@ p {
   background-color: #c6e2ff;
 } 
 
-/* iframe {
+/*----------------------CONTACT FORM ---------------------*/
+
+.ContactMe {
+  text-align: center;
   display: flex;
-  margin: 0 auto;
-  width: 100%;
-  height: 1130px;
-} */
+  flex-direction: column;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
@@ -278,6 +315,16 @@ input[type=submit]:hover {
 
 .ContactForm label {
   color: #424957;
+}
+
+@media all and (width >= 680px) {
+  .ContactForm {
+    width: 500px
+  }
+
+  .ContactMe form {
+    margin: 0 auto;
+  }
 }
 
 
