@@ -3,6 +3,7 @@ import react from "./images/react.png";
 import osu from "./images/osu.png";
 import genshin from "./images/genshin.png";
 import pokeball from "./images/pokeball.png";
+import r from "./images/r.png";
 
 const Projects = () => {
     return (  
@@ -36,6 +37,13 @@ const Projects = () => {
                     </a>
                     <b>PokeBot</b>
                     <p>A discord.py bot that simulates Pokemon collecting in chat rooms.</p>
+                </div>
+                <div className="project">
+                    <a href="https://github.com/azn-abel/wake-county-food-inspections" target={'_blank'} rel={'noreferrer'}>
+                        <img alt="R Logo" src={r}/>
+                    </a>
+                    <b>Wake County Food</b>
+                    <p>A simple R project that analyzes sanitation scores in Wake County, NC.</p>
                 </div>
                 <div className="project">
                     <a href="https://github.com/azn-abel/GenshinDiscordBot" target={'_blank'} rel={'noreferrer'}>
