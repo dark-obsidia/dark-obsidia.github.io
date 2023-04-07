@@ -22,7 +22,8 @@ const Home = () => {
                     an introductory Data Science course where I've been using RStudio and Python to analyze visualize data
                     with dplyr, numpy, pandas, and matplotlib. Aside from my
                     coursework, I'm also working on a few personal projects, including a Genshin Impact-themed Discord bot
-                    being made using discord.py, as well as the digital portfolio you're reading right now, which has been created with React.js.</p>
+                    being made using discord.py, as well as the digital portfolio you're reading right now, which has been
+                    created with React.js, HTML, and CSS.</p>
                 <br></br>
                 <p> Aside from being a Computer Science major, I'm also an avid music student! Here at NC State, I'm a member
                     of the Marching Band, where I play the snare drum, the Wind Ensemble, where I play percussion, and the
