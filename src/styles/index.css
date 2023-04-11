@@ -208,7 +208,7 @@ p {
 .social img {
   position: relative;
   top: 0;
-  transition: top 0.3s ease-in-out;
+  transition: top 0.2s ease-in-out;
   width: 100px;
   height: 100px;
   z-index: 2;
@@ -217,7 +217,11 @@ p {
 }
 
 .social img:hover {
-  top: -10px
+  top: -3px
+}
+
+.social img:active {
+  top: 0
 }
 
 /* margin: auto centers the content, and max-width sets the max width. */
