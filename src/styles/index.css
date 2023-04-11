@@ -85,17 +85,18 @@ h1 {
 }
 
 h3 {
-  font-size: 35px;
+  text-align: left;
+  font-size: 30px;
   line-height: 40px;
 }
 
 h2 {
-  text-align: center;
-  font-size: 35px;
+  text-align: left;
+  font-size: 40px;
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 .content {
@@ -105,21 +106,23 @@ p {
 }
 /*----------------------ABOUT ME SECTION------------------------*/
 
-@media all and (1080px <= width <= 1920px){
+@media all and (1080px <= width){
   .about-me-container {
     display: inline-flex;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: flex-start;
     width: 100%;
-    align-items: center;
-    justify-content: center;
   }
   
   .about-me-box {
     display: inline-flex;
-    vertical-align: middle;
+    vertical-align: left;
     flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px
+    /* padding-left: 15px; */
+  }
+
+  .about-me-box img {
+    padding-right: 40px
   }
 } 
 
