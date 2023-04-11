@@ -16,7 +16,7 @@ const Home = () => {
                 <h3 className="Hello">Hi, I'm Abel Lu 👋</h3>
                 
                 <br/>
-                <p> Hey there! My name is Abel Lu, and I'm a sophomore Computer Science student at North Carolina State University.
+                <p> Hey there! My name is Abel Lu, and I'm a first-year sophomore Computer Science student at North Carolina State University.
                     I'm currently enrolled in Software Development Fundamentals, a Java class where I've been learning
                     about software development best practices, unit testing, and finite state machines. I'm also taking
                     an introductory Data Science course where I've been using RStudio and Python to analyze and visualize data
