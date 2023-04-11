@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 style={
+      <h1 className="fade-in" style={
         {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
         }
