@@ -87,7 +87,6 @@ h1 {
 h3 {
   text-align: left;
   font-size: 30px;
-  line-height: 40px;
 }
 
 h2 {
@@ -106,10 +105,17 @@ p {
 }
 /*----------------------ABOUT ME SECTION------------------------*/
 
-@media all and (1080px <= width){
+.about-me-box h3 {
+  text-align: left;
+}
+
+.about-me-box img {
+  padding-bottom: 30px;
+}
+
+@media all and (900px <= width){
   .about-me-container {
     display: inline-flex;
-    /* text-align: center; */
     justify-content: flex-start;
     width: 100%;
   }
@@ -118,11 +124,14 @@ p {
     display: inline-flex;
     vertical-align: left;
     flex-direction: column;
-    /* padding-left: 15px; */
   }
 
   .about-me-box img {
-    padding-right: 40px
+    padding-right: 40px;
+  }
+  .about-me-box h3 {
+    text-align: left;
+    width: 100%;
   }
 } 
 
@@ -161,7 +170,7 @@ p {
 .project img {
   position: relative;
   top: 0;
-  transition: top 0.3s ease-in-out;
+  transition: top 0.2s ease-in-out;
   width: 200px;
   height: 200px;
   z-index: 2;
@@ -169,7 +178,11 @@ p {
 }
 
 .project img:hover {
-  top: -10px
+  top: -5px
+}
+
+.project img:active {
+  top: 0
 }
 
 /*----------------------CONTACTS SECTION------------------------*/
