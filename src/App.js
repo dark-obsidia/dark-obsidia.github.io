@@ -16,7 +16,7 @@ function App() {
         {
           backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
         }
-      } id="Home"><p className="fade-in" style={{fontSize: "50px"}}> Abel Lu </p><p className="fade-in">---</p><p className="fade-in">CompSci @ NC State</p><p className="fade-in">Lowe's: SWE Intern</p><br /><br /></h1>
+      } id="Home"><p className="fade-in" style={{fontSize: "50px"}}> Abel Lu </p><p className="fade-in">—</p><p className="fade-in">CompSci @ NC State</p><p className="fade-in">Lowe's: SWE Intern</p><br /><br /></h1>
       <div className="content">
         <Home />
         <br />
