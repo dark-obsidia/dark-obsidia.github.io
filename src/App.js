@@ -59,7 +59,7 @@ function App() {
         <BrowserRouter>
             <Navbar/>
             <div className='content' id='content'>
-            <AnimatedRoutes/>
+            <AnimatedRoutes/> 
             <hr />
             </div>
         </BrowserRouter>
