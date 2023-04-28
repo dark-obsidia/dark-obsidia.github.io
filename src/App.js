@@ -8,12 +8,14 @@ import AboutMe from './AboutMe.js';
 import Projects from './Projects.js'
 import Resume from './Resume.js'
 import ContactMe from './ContactMe.js'
+import Error404 from './404.js'
 
 const AnimatedRoutes = () => {
   const location = useLocation();
 
   useEffect(() => {
     var item;
+
     const handleResize = () => {
       try {
         const newHeight = item.getBoundingClientRect().height;
@@ -23,17 +25,19 @@ const AnimatedRoutes = () => {
       }
     }
 
-    try {
-      if (location.pathname === "" || location.pathname === "/") {
-        item = document.getElementById("home");
-      } else {
-        item = document.getElementById(location.pathname.slice(1));
+    const initialResize = () => {
+      try {
+        if (location.pathname === "" || location.pathname === "/") {
+          item = document.getElementById("home");
+        } else {
+          item = document.getElementById(location.pathname.slice(1));
+        }
+        handleResize();
+      } catch {
+        console.log("Failed to get current component.")
       }
-      handleResize();
-    } catch {
-      console.log("Failed to get current component.")
     }
-
+    setTimeout(initialResize, 0);
     window.addEventListener('resize', handleResize);
 
     return () => {
@@ -57,6 +61,7 @@ const AnimatedRoutes = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact-me" element={<ContactMe />} />
+          <Route path="/*" element={<Error404 />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>
