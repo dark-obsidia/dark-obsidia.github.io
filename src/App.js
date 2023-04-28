@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './styles/index.css';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from "./Home.js"
 import Navbar from './Navbar.js'
@@ -56,13 +56,13 @@ function App() {
   return (
     <div className="App">
       <div>
-        <BrowserRouter>
+        <HashRouter>
             <Navbar/>
             <div className='content' id='content'>
             <AnimatedRoutes/> 
             <hr />
             </div>
-        </BrowserRouter>
+        </HashRouter>
       </div>
       <div className='footer'>
         <p>Copyright © 2023 Abel Lu. All Rights Reserved. <br /> This project was bootstrapped with Create React App.
