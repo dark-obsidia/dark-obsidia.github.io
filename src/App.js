@@ -13,24 +13,36 @@ const AnimatedRoutes = () => {
   const location = useLocation();
 
   useEffect(() => {
+    var item;
+    const handleResize = () => {
+      try {
+        const newHeight = item.getBoundingClientRect().height;
+        document.getElementById('content').style.height = newHeight + "px";
+      } catch {
+        console.log("Failed to properly resize components.")
+      }
+    }
+
     try {
-      var item;
       if (location.pathname === "" || location.pathname === "/") {
-        console.log("success");
         item = document.getElementById("home");
-        console.log(item);
       } else {
         item = document.getElementById(location.pathname.slice(1));
-        console.log(item);
       }
-      console.log(item.getBoundingClientRect().height);
-      const newHeight = item.getBoundingClientRect().height;
-      console.log(newHeight + "px");
-      document.getElementById('content').style.height = newHeight + "px";
+      handleResize();
     } catch {
-      console.log("failure")
+      console.log("Failed to get current component.")
     }
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+
   }, [location])
+
+  
 
   return (
     <TransitionGroup className="transition-group">
