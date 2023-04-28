@@ -1,22 +1,24 @@
+import { Link }  from "react-router-dom";
 import './styles/index.css';
 
 const Navbar = () => {
-    return ( 
-        <nav className="navbar">
-            <ul class={'nav'}>
 
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#AboutMe">About Me</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Resume">Resume</a></li>
-                <li><a href="https://github.com/azn-abel" target={'_blank'} rel={'noreferrer'}>GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/aluprof4" target={'_blank'} rel={'noreferrer'}>LinkedIn</a></li>
-                <li><a href="#ContactMe">Contact Me</a></li>
-                
-            </ul>
-            
-            
-        </nav>
+
+    return ( 
+        <>
+            <nav className="navbar">
+                <ul class={'nav'}>
+                    <li><Link to="/"> Home</Link></li>
+                    {/* <li><button onClick={() => handleClick("/")}>Home</button></li> */}
+                    <li><Link to="/about-me">About Me</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
+                    <li><Link to="https://github.com/azn-abel" target={'_blank'} rel={'noreferrer'}>GitHub</Link></li>
+                    <li><Link to="https://www.linkedin.com/in/aluprof4" target={'_blank'} rel={'noreferrer'}>LinkedIn</Link></li>
+                    <li><Link to="/contact-me">Contact Me</Link></li>
+                </ul>
+            </nav>
+        </>
      );
 }
  

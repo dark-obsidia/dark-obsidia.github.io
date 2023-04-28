@@ -2,7 +2,7 @@ import "./styles/index.css";
 
 const Resume = () => {
     return (  
-        <div className="Resume" id="Resume">
+        <div className="Resume page" id="resume">
             <br />
             <h2>Resume</h2>
             <br/><p>Current as of 11 Apr 2023</p><br />

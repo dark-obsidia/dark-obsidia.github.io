@@ -4,7 +4,7 @@ import SocialsJSON from "./data/socials.json";
 
 const ContactMe = () => {
     return ( 
-        <div className="ContactMe" id="ContactMe">
+        <div className="ContactMe page" id="contact-me">
             <br />
             <h2>Contact Me</h2>
             <br/>

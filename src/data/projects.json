@@ -8,7 +8,7 @@
       "borderRadius": "200px"
     },
     {
-      "title": "osu! API",
+      "title": "osu! rankings",
       "alt": "osu! Logo",
       "description": "A discord.py bot that lets users share recent and overall osu! scores.",
       "url": "https://github.com/azn-abel/OsuBot",
@@ -32,7 +32,7 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Burger Cat Game",
+      "title": "Jimmy's Quest",
       "alt": "Burger Cat",
       "description": "An educational video game made with a template from the GameMaker engine.",
       "url": "https://github.com/azn-abel/burger-cat-game",
