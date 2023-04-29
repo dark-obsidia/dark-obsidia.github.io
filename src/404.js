@@ -10,7 +10,7 @@ const Error404 = () => {
             backgroundImage: "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(" + Background + ")",
             width: "100%"
             }
-            } id="Home"><p style={{fontSize: "50px"}}>404 Error</p><br /><p>What are you</p><p>doing here?</p><br />
+            } id="Home"><p style={{fontSize: "50px"}}>404 Error</p><br /><p>How'd you get here?</p><br />
             </h1>
         </div>
      );
