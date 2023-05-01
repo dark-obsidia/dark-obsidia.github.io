@@ -19,9 +19,20 @@ const AnimatedRoutes = () => {
     const handleResize = () => {
       try {
         const newHeight = item.getBoundingClientRect().height;
-        document.getElementById('content').style.height = newHeight + "px";
-      } catch {
+        const fitHeight = window.innerHeight - document.getElementById('footer').offsetHeight - document.getElementById('navbar').offsetHeight;
+        console.log(document.getElementById('footer').style);
+        console.log(document.getElementById('navbar').style);
+        console.log(document.getElementById('content').style.height);
+        console.log(document.getElementById('content').offsetHeight);
+        if (newHeight > fitHeight) {
+          document.getElementById('content').style.height = newHeight + "px";
+        } else {
+          document.getElementById('content').style.height = fitHeight + "px";
+        }
+        
+      } catch (e) {
         console.log("Failed to properly resize components.")
+        console.log(e);
       }
     }
 
@@ -81,7 +92,7 @@ function App() {
             </div>
         </HashRouter>
       </div>
-      <div className='footer'>
+      <div className='footer' id='footer'>
         <p>Copyright © 2023 Abel Lu. All Rights Reserved. <br /> This project was bootstrapped with Create React App.
         </p>
       </div>

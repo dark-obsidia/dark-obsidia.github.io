@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return ( 
         <>
-            <nav className="navbar">
+            <nav className="navbar" id='navbar'>
                 <ul class={'nav'}>
                     <li><Link to="/"> Home</Link></li>
                     {/* <li><button onClick={() => handleClick("/")}>Home</button></li> */}
