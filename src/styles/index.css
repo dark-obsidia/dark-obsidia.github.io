@@ -281,7 +281,7 @@ hr {
   flex-direction: column; */
 }
 
-.social img {
+.social a {
   position: relative;
   top: 0;
   transition: top 0.2s ease-in-out;
@@ -289,14 +289,22 @@ hr {
   height: 100px;
   z-index: 2;
   padding: 20px;
-  padding-top: 0px
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social img:hover {
+.social img {
+  display: block;
+  width: 100px;
+  margin:auto
+}
+
+.social a:hover {
   top: -3px
 }
 
-.social img:active {
+.social a:active {
   top: 0
 }
 

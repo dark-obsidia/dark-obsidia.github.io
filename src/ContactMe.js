@@ -15,7 +15,7 @@ const ContactMe = () => {
                         return(
                             <div className="social">
                                 <a href={social.url} target={'_blank'} rel={'noreferrer'}>
-                                    <img src={require('./images/' + social.image)} alt={social.alt} />
+                                        <img src={require('./images/' + social.image)} alt={social.alt} />
                                 </a>
                                 <b>{social.title}</b>
                             </div>

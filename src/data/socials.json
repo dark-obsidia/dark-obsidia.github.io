@@ -10,5 +10,11 @@
         "alt": "LinkedIn Logo",
         "url": "https://linkedin.com/in/aluprof4",
         "image": "linkedin.png"
+    },
+    {
+        "title": "Discord",
+        "alt": "Discord Logo",
+        "url": "https://discordapp.com/users/229248090786365443",
+        "image": "discord-contact.png"
     }
 ]
