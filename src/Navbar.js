@@ -15,6 +15,7 @@ const Navbar = () => {
                     <li><Link to="/resume">Resume</Link></li>
                     <li><Link to="https://github.com/azn-abel" target={'_blank'} rel={'noreferrer'}>GitHub</Link></li>
                     <li><Link to="https://www.linkedin.com/in/aluprof4" target={'_blank'} rel={'noreferrer'}>LinkedIn</Link></li>
+                    <li><Link to="/faq">FAQ</Link></li>
                     <li><Link to="/contact-me">Contact Me</Link></li>
                 </ul>
             </nav>

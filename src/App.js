@@ -7,6 +7,7 @@ import Navbar from './Navbar.js'
 import AboutMe from './AboutMe.js';
 import Projects from './Projects.js'
 import Resume from './Resume.js'
+import FAQ from './FAQ.js'
 import ContactMe from './ContactMe.js'
 import Error404 from './404.js'
 
@@ -71,6 +72,7 @@ const AnimatedRoutes = () => {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/faq" element={<FAQ />}/>
           <Route path="/contact-me" element={<ContactMe />} />
           <Route path="/*" element={<Error404 />} />
         </Routes>
@@ -92,10 +94,11 @@ function App() {
             </div>
         </HashRouter>
       </div>
-      <div className='footer' id='footer'>
-        <p>Copyright © 2023 Abel Lu. All Rights Reserved. <br /> This project was bootstrapped with Create React App.
+      <footer className='footer' id='footer'>
+        <p>
+          Copyright © 2023 Abel Lu. All Rights Reserved.
         </p>
-      </div>
+      </footer>
     </div>
   );
 }
