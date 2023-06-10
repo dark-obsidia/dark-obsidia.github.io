@@ -17,7 +17,6 @@ function FAQ() {
                     well.
                 </p>
                 <br />
-                <br />
             </div>
             <div className="question">
                 <h3>What experience do you have?</h3>
@@ -33,7 +32,7 @@ function FAQ() {
                     designed and presented a mobile app and won capstone competition judged 
                     by business and tech employees at Cisco.
                 </p>
-                <br /><br />
+                <br />
             </div>
             <div className="question">
                 <h3>What are your interests?</h3>
@@ -49,7 +48,6 @@ function FAQ() {
                     fan of anime. I was recently able to catch Makoto Shinkai's Suzume in theaters
                     with some of my friends, and it was a blast!
                 </p>
-                <br />
                 <br />
             </div>
         </div>

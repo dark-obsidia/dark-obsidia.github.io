@@ -126,11 +126,13 @@ h1 {
 h3 {
   text-align: left;
   font-size: 30px;
+  line-height: 35px;
 }
 
 h2 {
   text-align: left;
   font-size: 40px;
+  line-height: 45px;
 }
 
 p {
