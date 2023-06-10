@@ -16,14 +16,15 @@ const AboutMe = () => {
             <div className="about-me-box">
                 <h3 className="Hello">Hi, I'm Abel Lu 👋</h3>
                 <br/>
-                <p> Hey there! My name is Abel Lu, and I'm a first-year sophomore Computer Science student at North Carolina State University.
-                    I'm currently enrolled in Software Development Fundamentals, a Java class where I've been learning
-                    about software development best practices, unit testing, and finite state machines. I'm also taking
-                    an introductory Data Science course where I've been using RStudio and Python to analyze and visualize data
-                    with dplyr, numpy, pandas, and matplotlib. Aside from my
-                    coursework, I'm also working on a few personal projects, including a Genshin Impact-themed Discord bot
+                <p> Hey there! My name is Abel Lu, and I'm a second-year Computer Science student at North Carolina State University.
+                    Last semester, I took Software Development Fundamentals, a Java class where I learned
+                    about software development best practices, unit testing, and finite state machines. I also
+                    an introductory Data Science course where I used RStudio and Python to analyze and visualize data
+                    with dplyr, numpy, pandas, and matplotlib. This fall, I will be taking Discrete Math and
+                     C / Software Tools. Aside from my
+                    coursework, I'm also working on a few personal projects, including a Osu-themed Discord bot
                     being made using discord.py, as well as the digital portfolio you're reading right now, which has been
-                    created with React.js, HTML, and CSS.</p>
+                    created with React.</p>
                 {/* <br></br>
                 <p> Aside from being a Computer Science major, I'm also an avid music student! Here at NC State, I'm a member
                     of the Marching Band, where I play the snare drum, the Wind Ensemble, where I play percussion, and the

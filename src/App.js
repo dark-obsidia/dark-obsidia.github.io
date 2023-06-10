@@ -90,10 +90,10 @@ function App() {
             <Navbar/>
             <div className='content' id='content'>
             <AnimatedRoutes/> 
-            <hr />
             </div>
         </HashRouter>
       </div>
+      <hr />
       <footer className='footer' id='footer'>
         <p>
           Copyright © 2023 Abel Lu. All Rights Reserved.

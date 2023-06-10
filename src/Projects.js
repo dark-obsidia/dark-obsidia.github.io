@@ -12,7 +12,7 @@ const Projects = () => {
             <p>I'm currently working on a few personal projects, including a Genshin Impact-themed Discord bot that
                 will implement PostgreSQL as its data storage solution, an osu!-themed application that
                 interacts with the osu! API, as well as the digital portfolio you're reading right now,
-                which is being made with React.js. Feel free to check theses out below! And if you'd like a more up-to-date
+                which is being made with React. Feel free to check these out below! And if you'd like a more up-to-date
                 look at what I'm currently working on, please check out my GitHub page at <a style={{color: "#c6e2ff"}}href="https://www.github.com/azn-abel" target={'_blank'} rel={'noreferrer'}>https://www.github.com/azn-abel</a>.</p><br />
             <div className="projects-container">
                 {

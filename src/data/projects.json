@@ -34,7 +34,7 @@
     {
       "title": "Jimmy's Quest",
       "alt": "Burger Cat",
-      "description": "An educational video game made with a template from the GameMaker engine.",
+      "description": "An educational video game made with the GameMaker engine.",
       "url": "https://github.com/azn-abel/burger-cat-game",
       "imagePath": "burgercat.png",
       "borderRadius": "0px"
