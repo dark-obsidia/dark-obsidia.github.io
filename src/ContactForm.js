@@ -13,6 +13,8 @@ function ContactForm() {
 
     const sendEmail = (e) => {
       e.preventDefault();
+
+      setStatus('Processing request...')
   
       emailjs.sendForm('service_l49rbwz', 'template_oklhrkg', form.current, 'TalPMRUnzL8eHLRR5')
         .then((result) => {

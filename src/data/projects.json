@@ -24,6 +24,14 @@
       "borderRadius": "0px"
     },
     {
+      "title": "Ramen Data Analysis",
+      "alt": "Python Logo",
+      "description": "Exploratory data analysis to identify trends in Ramen ratings.",
+      "url": "https://github.com/azn-abel/ramen-ratings",
+      "imagePath": "python.png",
+      "borderRadius": "0px"
+    },
+    {
       "title": "Wake County Food",
       "alt": "R Logo",
       "description": "A simple R project that analyzes sanitation scores in Wake County, NC.",
