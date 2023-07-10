@@ -1,6 +1,6 @@
-import "./styles/index.css";
+import "../../styles/index.css";
 
-import Background from './images/wallpaper.jpg'
+import Background from '../../images/wallpaper.jpg'
 
 const Home = () => {
     return ( 

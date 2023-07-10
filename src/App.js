@@ -2,29 +2,31 @@ import { useEffect } from 'react';
 import './styles/index.css';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import Home from "./Home.js"
+
+import Home from "./pages/home/Home.js"
 import Navbar from './Navbar.js'
-import AboutMe from './AboutMe.js';
-import Projects from './Projects.js'
-import Resume from './Resume.js'
-import FAQ from './FAQ.js'
-import ContactMe from './ContactMe.js'
+import Footer from "./Footer";
+
+import AboutMe from './pages/aboutMe/AboutMe.js';
+import Projects from './pages/projects/Projects.js'
+import Resume from './pages/resume/Resume.js'
+import Blog from './pages/blog/Blog.js'
+import FAQ from './pages/faq/FAQ.js'
+import ContactMe from './pages/contactMe/ContactMe.js'
 import Error404 from './404.js'
+import BlogArticleDisplay from "./pages/blog/BlogArticleDisplay";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
 
   useEffect(() => {
-    var item;
+    let item;
 
     const handleResize = () => {
       try {
         const newHeight = item.getBoundingClientRect().height;
-        const fitHeight = window.innerHeight - document.getElementById('footer').offsetHeight - document.getElementById('navbar').offsetHeight;
-        console.log(document.getElementById('footer').style);
-        console.log(document.getElementById('navbar').style);
-        console.log(document.getElementById('content').style.height);
-        console.log(document.getElementById('content').offsetHeight);
+        const fitHeight = window.innerHeight - document.getElementById('navbar').offsetHeight;
+
         if (newHeight > fitHeight) {
           document.getElementById('content').style.height = newHeight + "px";
         } else {
@@ -42,6 +44,8 @@ const AnimatedRoutes = () => {
         if (location.pathname === "" || location.pathname === "/") {
           item = document.getElementById("home");
         } else {
+          console.log(location.pathname)
+          console.log(location.pathname.slice(1));
           item = document.getElementById(location.pathname.slice(1));
         }
         handleResize();
@@ -72,7 +76,9 @@ const AnimatedRoutes = () => {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/faq" element={<FAQ />}/>
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogArticleDisplay />} />
           <Route path="/contact-me" element={<ContactMe />} />
           <Route path="/*" element={<Error404 />} />
         </Routes>
@@ -94,11 +100,7 @@ function App() {
         </HashRouter>
       </div>
       <hr />
-      <footer className='footer' id='footer'>
-        <p>
-          Copyright © 2023 Abel Lu. All Rights Reserved.
-        </p>
-      </footer>
+      <Footer/>
     </div>
   );
 }

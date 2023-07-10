@@ -56,6 +56,10 @@ h1 {
   line-height: 40px;
 }
 
+h1 p {
+  width: fit-content;
+}
+
 .Home {
   height: calc(100vh - 49px);
   width: 100%;
@@ -137,6 +141,7 @@ h2 {
 
 p {
   text-align: left;
+  width: 100%
 }
 
 .content {
@@ -307,9 +312,6 @@ iframe {
   height: 1130px;
 }
 
-viewer {
-  width: 100%
-}
 
 /* margin: auto centers the content, and max-width sets the max width. */
 @media all and (1500px < width <= 1920px){
@@ -419,7 +421,7 @@ input, select, textarea {
     sans-serif;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text", select elements and text areas */
 input[type=text], input[type=email], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -474,7 +476,7 @@ input[type=submit]:hover {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: Column;
   justify-content: space-evenly;
   width: 100%;
   padding-bottom: 10px;

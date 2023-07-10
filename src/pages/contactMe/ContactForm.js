@@ -1,4 +1,4 @@
-import "./styles/index.css";
+import "../../styles/index.css";
 import React, { useState, useRef } from 'react';
 import emailjs from "@emailjs/browser";
 
@@ -45,7 +45,7 @@ function ContactForm() {
                 <textarea id="message" name="message" placeholder="Your message" value={message} onChange={(e) => setMessage(e.target.value)} required/>
                 <input type="submit" className="btn btn-info" value="Send Message"/>
                 <br />
-                <label htmlFor="status" id="status" name="status" text-align="center">{status}</label>
+                <label htmlFor="status" id="status">{status}</label>
             </form>
         </div>
      );
