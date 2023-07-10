@@ -99,7 +99,6 @@ function App() {
             </div>
         </HashRouter>
       </div>
-      <hr />
       <Footer/>
     </div>
   );

@@ -1,26 +1,10 @@
 [
     {
-      "title": "Portfolio",
-      "alt": "React Logo",
-      "description": "React.js, HTML, and CSS source code for this website.",
-      "url": "https://github.com/azn-abel/digital-portfolio",
-      "imagePath": "react.png",
-      "borderRadius": "200px"
-    },
-    {
       "title": "osu! rankings",
       "alt": "osu! Logo",
       "description": "A discord.py bot that lets users share recent and overall osu! scores.",
       "url": "https://github.com/azn-abel/OsuBot",
       "imagePath": "osu.png",
-      "borderRadius": "0px"
-    },
-    {
-      "title": "PokeBot",
-      "alt": "Pokeball",
-      "description": "A discord.py bot that simulates Pokemon collecting in chat rooms.",
-      "url": "https://github.com/azn-abel/PokemonCollectingBot3",
-      "imagePath": "pokeball.png",
       "borderRadius": "0px"
     },
     {
@@ -32,11 +16,19 @@
       "borderRadius": "0px"
     },
     {
-      "title": "Wake County Food",
-      "alt": "R Logo",
-      "description": "A simple R project that analyzes sanitation scores in Wake County, NC.",
-      "url": "https://github.com/azn-abel/wake-county-food-inspections",
-      "imagePath": "r.png",
+      "title": "Portfolio",
+      "alt": "React Logo",
+      "description": "React.js, HTML, and CSS source code for this website.",
+      "url": "https://github.com/azn-abel/digital-portfolio",
+      "imagePath": "react.png",
+      "borderRadius": "200px"
+    },
+    {
+      "title": "Students API",
+      "alt": "Spring Logo",
+      "description": "A Java Spring REST API with a Grafana metrics dashboard.",
+      "url": "https://github.com/azn-abel/students-api",
+      "imagePath": "spring.png",
       "borderRadius": "0px"
     },
     {
@@ -45,6 +37,22 @@
       "description": "An educational video game made with the GameMaker engine.",
       "url": "https://github.com/azn-abel/burger-cat-game",
       "imagePath": "burgercat.png",
+      "borderRadius": "0px"
+    },
+    {
+      "title": "PokeBot",
+      "alt": "Pokeball",
+      "description": "A discord.py bot that simulates Pokemon collecting in chat rooms.",
+      "url": "https://github.com/azn-abel/PokemonCollectingBot3",
+      "imagePath": "pokeball.png",
+      "borderRadius": "0px"
+    },
+    {
+      "title": "Wake County Food",
+      "alt": "R Logo",
+      "description": "A simple R project that analyzes sanitation scores in Wake County, NC.",
+      "url": "https://github.com/azn-abel/wake-county-food-inspections",
+      "imagePath": "r.png",
       "borderRadius": "0px"
     },
     {
