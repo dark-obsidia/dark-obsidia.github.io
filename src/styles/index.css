@@ -43,12 +43,15 @@ code {
 }
 
 .App {
-  background-color: black;
+  /*background-color: black;*/
+  /*background-image: linear-gradient(to bottom, #00bbfb, #8feeee);*/
+  /*background-image: linear-gradient(to bottom, #00aafb, #5454eb);*/
+  background-image: linear-gradient(to bottom, #000000, #545454);
   color: white;
 }
 
 h1 {
-  height: calc(100vh - 49px);
+  height: calc(100vh - 200px);
   position: absolute;
   width: 100%;
   color: white;          /* text color */
@@ -65,7 +68,7 @@ h1 p {
 }
 
 .Home {
-  height: calc(100vh - 49px);
+  /*height: calc(100vh - 53px - 225px);*/
   width: 100%;
 }
 
@@ -156,6 +159,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  /*background-image: linear-gradient(to bottom, #00bbfb, #8feeee);*/
 }
 
 .transition-group {
@@ -163,6 +167,8 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
@@ -229,7 +235,8 @@ hr {
   display: inline-flex;
   vertical-align: middle;
   flex-direction: column;
-  background-color: #afeeee;
+  /*background-color: #afeeee;*/
+  background-color: #dddddd;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
@@ -382,10 +389,12 @@ iframe {
   margin:0;
   padding:0;
   text-align:center;
-  background-color: #afeeee;
+  /*background-color: #afeeee;*/
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
   position: -webkit-sticky;
   position: sticky;
   width: 100%;
@@ -399,14 +408,15 @@ iframe {
 
 .nav a {
   display: inline-block;
-  color: #424957;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .nav a:hover {
-  background-color: #c6e2ff;
+  /*background-color: #c6e2ff;*/
+  color: #bbbbbb;
 } 
 
 

@@ -27,13 +27,25 @@ const AnimatedRoutes = () => {
 
     const handleResize = () => {
       try {
-        const newHeight = item.getBoundingClientRect().height;
-        const fitHeight = window.innerHeight - document.getElementById('navbar').offsetHeight;
+        console.log(item);
 
-        if (newHeight > fitHeight) {
-          document.getElementById('content').style.height = newHeight + "px";
+        const footerHeight = document.getElementById('footer').offsetHeight;
+        const navbarHeight = document.getElementById('navbar').offsetHeight;
+
+        if (item.id === "home") {
+          item.style.height = window.innerHeight - navbarHeight;
+        }
+
+        const newHeight = item.getBoundingClientRect().height;
+        const fitHeight = window.innerHeight - navbarHeight - footerHeight;
+
+
+
+        if (newHeight >= fitHeight) {
+          document.getElementById('content').style.height = newHeight + footerHeight + "px";
         } else {
-          document.getElementById('content').style.height = fitHeight + "px";
+          document.getElementById('content').style.height = fitHeight + footerHeight + "px";
+          console.log("fit is more")
         }
         
       } catch (e) {
@@ -101,11 +113,12 @@ function App() {
         <HashRouter>
             <Navbar/>
             <div className='content' id='content'>
-            <AnimatedRoutes/> 
+            <AnimatedRoutes/>
+              <Footer/>
             </div>
         </HashRouter>
       </div>
-      <Footer/>
+
     </div>
   );
 }

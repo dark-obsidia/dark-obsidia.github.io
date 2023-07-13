@@ -4,7 +4,7 @@ import blogJson from "../../data/blog.json";
 
 const Blog = () => {
 
-    const BlogJson = blogJson.toReversed().slice(1);
+    const BlogJson = blogJson.toReversed();
 
     return (
         <div className="Blog page" id="blog">

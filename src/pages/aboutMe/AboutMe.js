@@ -21,7 +21,9 @@ const AboutMe = () => {
                     about software development best practices, unit testing, and finite state machines, as well as an
                     Intro to Data Science course where I used RStudio and Python to analyze and visualize data
                     with dplyr, numpy, pandas, and matplotlib. This upcoming year, I will be taking Discrete Math,
-                    C / Software Tools, and Data Structures and Algorithms. Aside from my
+                    C / Software Tools, and Data Structures and Algorithms.<br/><br/>
+
+                    Aside from my
                     coursework, I'm also working on a few personal projects, including a Osu-themed Discord bot
                     being made using discord.py, as well as the digital portfolio you're reading right now, which I
                     built to practice React. If you'd like to get in touch with me, feel free to contact me through
