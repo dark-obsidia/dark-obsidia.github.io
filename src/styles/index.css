@@ -1,6 +1,10 @@
 html {
-  scroll-padding-top: 60px;
-  scroll-behavior: smooth;
+  /*scroll-padding-top: 60px;*/
+  /*scroll-behavior: smooth;*/
+  overflow-x: hidden;
+}
+
+body {
   overflow-x: hidden;
 }
 

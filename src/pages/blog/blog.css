@@ -13,7 +13,17 @@
     color: #303339;
     background-color: #afeeee;
     width: 300px;
+    height: 300px;
     padding: 20px;
     border-radius: 10px;
     margin: 15px;
+}
+.blog-entry img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+.BlogArticleDisplay {
+    width: 80%;
+    max-width: 800px;
 }

@@ -1,7 +1,10 @@
 import { useEffect } from 'react';
 import './styles/index.css';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import {
+  TransitionGroup,
+  // CSSTransition
+} from 'react-transition-group';
 
 import Home from "./pages/home/Home.js"
 import Navbar from './Navbar.js'
@@ -53,11 +56,14 @@ const AnimatedRoutes = () => {
         console.log("Failed to get current component.")
       }
     }
-    setTimeout(initialResize, 0);
+    initialResize();
     window.addEventListener('resize', handleResize);
+    window.addEventListener('visibilitychange', handleResize);
+    window.scrollTo({top: 0});
 
     return () => {
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('visibilitychange', handleResize);
     };
 
   }, [location])
@@ -66,11 +72,11 @@ const AnimatedRoutes = () => {
 
   return (
     <TransitionGroup className="transition-group">
-      <CSSTransition
-        key={location.key}
-        classNames="fade"
-        timeout={1000}
-      >
+      {/*<CSSTransition*/}
+      {/*  key={location.key}*/}
+      {/*  classNames="fade"*/}
+      {/*  timeout={1000}*/}
+      {/*>*/}
         <Routes location={location}>
           <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
@@ -82,7 +88,7 @@ const AnimatedRoutes = () => {
           <Route path="/contact-me" element={<ContactMe />} />
           <Route path="/*" element={<Error404 />} />
         </Routes>
-      </CSSTransition>
+      {/*</CSSTransition>*/}
     </TransitionGroup>
   );
 };
