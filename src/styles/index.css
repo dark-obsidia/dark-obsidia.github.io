@@ -68,7 +68,8 @@ h1 p {
 }
 
 .Home {
-  /*height: calc(100vh - 53px - 225px);*/
+  height: calc(100vh - 53px - 225px);
+  min-height: calc(100vh - 53px);
   width: 100%;
 }
 

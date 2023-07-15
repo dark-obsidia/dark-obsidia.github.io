@@ -1,11 +1,13 @@
 import "../../styles/index.css";
 import "./home.css"
+import reactPic from "../../images/home-selfie.jpg";
 
 const Home = () => {
     return ( 
-        <div className="Home page" id="home" style={{paddingTop: "200px", paddingBottom: "200px"}}>
+        <div className="Home page" id="home">
+            <img src={reactPic} alt={"bruh"} style={{width: "384px", maxWidth: "80%", borderRadius: "50%", marginBottom: "50px"}}/>
             <h2 style={{textAlign: "center"}}>
-                Abel Lu <br/>
+                Hi, I'm Abel Lu 👋<br/>
                 - <br/>
 
             </h2>

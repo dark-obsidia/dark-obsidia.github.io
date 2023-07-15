@@ -7,7 +7,7 @@ import {
 } from 'react-transition-group';
 
 import Home from "./pages/home/Home.js"
-import Navbar from './Navbar.js'
+import Navbar from './components/navbar/Navbar.js'
 import Footer from "./Footer";
 
 import AboutMe from './pages/aboutMe/AboutMe.js';
@@ -31,15 +31,8 @@ const AnimatedRoutes = () => {
 
         const footerHeight = document.getElementById('footer').offsetHeight;
         const navbarHeight = document.getElementById('navbar').offsetHeight;
-
-        if (item.id === "home") {
-          item.style.height = window.innerHeight - navbarHeight;
-        }
-
         const newHeight = item.getBoundingClientRect().height;
         const fitHeight = window.innerHeight - navbarHeight - footerHeight;
-
-
 
         if (newHeight >= fitHeight) {
           document.getElementById('content').style.height = newHeight + footerHeight + "px";
@@ -113,7 +106,7 @@ function App() {
         <HashRouter>
             <Navbar/>
             <div className='content' id='content'>
-            <AnimatedRoutes/>
+              <AnimatedRoutes/>
               <Footer/>
             </div>
         </HashRouter>
