@@ -18,10 +18,10 @@ const Footer = () => {
                 }
             </div>
             <p>
-                Copyright © 2023 Abel Lu. All Rights Reserved.
+                © 2023 Sophia R. Nunez. All Rights Reserved.
             </p>
-            <p style={{textAlign: "center", padding: "5px"}}>📧 aluprof4@gmail.com</p>
-            <p style={{textAlign: "center", paddingBottom: "20px"}}>📱 +1 269-501-7211</p>
+            <p style={{textAlign: "center", padding: "5px"}}>📧 sophiarnunez@hotmail.com</p>
+            <p style={{textAlign: "center", paddingBottom: "20px"}}>📱 +1 919-448-6075</p>
         </footer>
     )
 }

@@ -14,7 +14,7 @@ const Navbar = () => {
         <>
             <nav className="navbar" id='navbar'>
                 <ul className="nav" style={{paddingLeft: "10px"}}>
-                    <li><Link to="/">{"azn-abel.github.io"}</Link></li>
+                    <li><Link to="/">{"dark-obsidia.github.io"}</Link></li>
                 </ul>
             </nav>
             <MenuButton opened={menuActive} setOpened={setMenuActive}/>
@@ -22,10 +22,10 @@ const Navbar = () => {
                 {menuActive && (<ul className={'nav side-menu'}>
                     <li><Link to="/">Home 🏠</Link></li>
                     <li><Link to="/about-me">About Me 🙂</Link></li>
-                    <li><Link to="/projects">Projects 🖥️</Link></li>
+                    {/*<li><Link to="/projects">Projects 🖥️</Link></li>*/}
                     <li><Link to="/resume">Resume 📄</Link></li>
-                    <li><Link to="/blog">Blog ✍🏻</Link></li>
-                    <li><Link to="/faq">FAQ 🤔</Link></li>
+                    {/*<li><Link to="/blog">Blog ✍🏻</Link></li>*/}
+                    {/*<li><Link to="/faq">FAQ 🤔</Link></li>*/}
                     <li><Link to="/contact-me">Contact Me 📨</Link></li>
                 </ul>)}
             </nav>

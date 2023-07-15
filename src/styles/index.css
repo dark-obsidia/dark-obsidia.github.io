@@ -46,7 +46,7 @@ code {
   /*background-color: black;*/
   /*background-image: linear-gradient(to bottom, #00bbfb, #8feeee);*/
   /*background-image: linear-gradient(to bottom, #00aafb, #5454eb);*/
-  background-image: linear-gradient(to bottom, #000000, #545454);
+  background-image: linear-gradient(to bottom, #7700ff, #aaaaff);
   color: white;
 }
 
@@ -196,7 +196,7 @@ hr {
 }
 
 .about-me-box img {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 @media all and (900px <= width){
@@ -213,7 +213,7 @@ hr {
   }
 
   .about-me-box img {
-    padding-right: 40px;
+    margin-right: 40px;
   }
   .about-me-box h3 {
     text-align: left;
@@ -455,7 +455,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #afeeee;
+  background-color: #aaaaff;
   color: #424957;
   padding: 12px 20px;
   border: none;
