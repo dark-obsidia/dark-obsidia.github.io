@@ -16,7 +16,7 @@ function ContactForm() {
 
       setStatus('Processing request...')
   
-      emailjs.sendForm('service_l49rbwz', 'template_oklhrkg', form.current, 'TalPMRUnzL8eHLRR5')
+      emailjs.sendForm('service_k9ltzw7', 'template_yi198x9', form.current, 'TalPMRUnzL8eHLRR5')
         .then((result) => {
             console.log(result.text);
             setStatus('Message sent successfully!');

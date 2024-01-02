@@ -1,6 +1,6 @@
 import "../../styles/index.css";
 import "./home.css"
-import reactPic from "../../images/home-selfie.jpg";
+import reactPic from "../../images/home-selfie.png";
 
 const Home = () => {
     return ( 

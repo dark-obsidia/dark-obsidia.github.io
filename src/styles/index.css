@@ -69,7 +69,7 @@ h1 p {
 
 .Home {
   height: calc(100vh - 53px - 225px);
-  min-height: calc(100vh - 53px);
+  min-height: 600px;
   width: 100%;
 }
 

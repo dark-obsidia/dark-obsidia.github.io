@@ -11,13 +11,13 @@ import Navbar from './components/navbar/Navbar.js'
 import Footer from "./Footer";
 
 import AboutMe from './pages/aboutMe/AboutMe.js';
-import Projects from './pages/projects/Projects.js'
+// import Projects from './pages/projects/Projects.js'
 import Resume from './pages/resume/Resume.js'
-import Blog from './pages/blog/Blog.js'
-import FAQ from './pages/faq/FAQ.js'
+// import Blog from './pages/blog/Blog.js'
+// import FAQ from './pages/faq/FAQ.js'
 import ContactMe from './pages/contactMe/ContactMe.js'
 import Error404 from './404.js'
-import BlogArticleDisplay from "./pages/blog/BlogArticleDisplay";
+// import BlogArticleDisplay from "./pages/blog/BlogArticleDisplay";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -44,6 +44,7 @@ const AnimatedRoutes = () => {
       } catch (e) {
         console.log("Failed to properly resize components.")
         console.log(e);
+
       }
     }
 
@@ -56,9 +57,15 @@ const AnimatedRoutes = () => {
           console.log(location.pathname.slice(1));
           item = document.getElementById(location.pathname.slice(1));
         }
+
+        if (item == null) {
+          item = document.getElementById("404");
+        }
         handleResize();
       } catch {
         console.log("Failed to get current component.")
+        item = document.getElementById("404")
+        handleResize()
       }
     }
     initialResize();
