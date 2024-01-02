@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.25ea1d97.css",
-    "main.js": "/static/js/main.f8becdc4.js",
+    "main.js": "/static/js/main.ed47ddf4.js",
+    "static/media/home-selfie.png": "/static/media/home-selfie.f2db962d4799c503fcdc.png",
     "static/media/python.png": "/static/media/python.91072be85b01ef0961a8.png",
     "static/media/genshin.png": "/static/media/genshin.67db63b08047f11d76ee.png",
     "static/media/r.png": "/static/media/r.bab71c53d7df7163f2ed.png",
@@ -17,10 +18,10 @@
     "static/media/Metropolis-Light.woff": "/static/media/Metropolis-Light.fe9aaaf89f0f5af7af1f.woff",
     "index.html": "/index.html",
     "main.25ea1d97.css.map": "/static/css/main.25ea1d97.css.map",
-    "main.f8becdc4.js.map": "/static/js/main.f8becdc4.js.map"
+    "main.ed47ddf4.js.map": "/static/js/main.ed47ddf4.js.map"
   },
   "entrypoints": [
     "static/css/main.25ea1d97.css",
-    "static/js/main.f8becdc4.js"
+    "static/js/main.ed47ddf4.js"
   ]
 }
